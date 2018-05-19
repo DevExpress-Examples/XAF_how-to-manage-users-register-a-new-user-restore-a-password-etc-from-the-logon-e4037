@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<Tests xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Date="3/12/2013">
+  <Test Name="E4037" ApplicationName="ManageUsersOnLogon.Win" Result="Failed" Elapsed="00:00:16.3901862" Started="3/12/2013 8:47:07 PM" ApplicationViews="E4037_ManageUsersOnLogon.Win_View.jpeg" MachineName="GARAVSKYDE-NB-S" IP="172.22.2.68">
+    <Error Type="DevExpress.EasyTest.Framework.AdapterOperationException">
+      <Message><![CDATA[Cannot find the 'ValidationResultsText' control, OperationTag:'Field', line 7]]></Message>
+    </Error>
+  </Test>
+  <Test Name="E4037" ApplicationName="ManageUsersOnLogon.Web" Result="Warning" Elapsed="00:00:09.6801151" Started="3/12/2013 8:47:23 PM" ApplicationViews="E4037_ManageUsersOnLogon.Web_View.jpeg" MachineName="GARAVSKYDE-NB-S" IP="172.22.2.68">
+    <Error Type="System.ArgumentOutOfRangeException">
+      <Message><![CDATA[Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index================================================================================
+The error occurred:
+
+	Type:       ArgumentOutOfRangeException
+	Message:    Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+	Data:       0 entries
+	Stack trace:
+
+   at System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   at DevExpress.ExpressApp.EasyTest.WebAdapter.WebBrowserCollection.get_Item(Int32 index)
+   at DevExpress.ExpressApp.EasyTest.WebAdapter.WebAdapter.GetDocument(Int32 index)
+   at DevExpress.ExpressApp.EasyTest.WebAdapter.WebCommandAdapter.GetCurrentDocument()
+   at DevExpress.ExpressApp.EasyTest.WebAdapter.WebCommandAdapter.CreateTestControls()
+   at DevExpress.ExpressApp.EasyTest.WebAdapter.WebCommandAdapter.UpdateTestControls()
+   at DevExpress.ExpressApp.EasyTest.WebAdapter.WebCommandAdapter.WaitForBrowserResponse(Boolean waitPostback, Boolean isSecondCall)
+   at DevExpress.ExpressApp.EasyTest.WebAdapter.WebAdapter.CreateCommandAdapter()
+   at DevExpress.EasyTest.Framework.TestExecutor.CreateCommandAdapterCore(IApplicationAdapter adapter)
+   at DevExpress.EasyTest.Framework.TestExecutor.ExecuteCommands(IApplicationAdapter adapter, String& applicationName)
+	InnerException is null
+]]></Message>
+    </Error>
+  </Test>
+</Tests>
