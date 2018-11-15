@@ -1,3 +1,12 @@
+<!-- default file list -->
+*Files to look at*:
+
+* [ManageUsersOnLogonController.cs](./CS/Security.Extensions/ManageUsersOnLogonController.cs) (VB: [ManageUsersOnLogonController.vb](./VB/Security.Extensions/ManageUsersOnLogonController.vb))
+* [Model.DesignedDiffs.xafml](./CS/Security.Extensions/Model.DesignedDiffs.xafml) (VB: [Model.DesignedDiffs.xafml](./VB/Security.Extensions/Model.DesignedDiffs.xafml))
+* [Module.cs](./CS/Security.Extensions/Module.cs) (VB: [Module.vb](./VB/Security.Extensions/Module.vb))
+* [RegisterUserParameters.cs](./CS/Security.Extensions/RegisterUserParameters.cs) (VB: [RegisterUserParameters.vb](./VB/Security.Extensions/RegisterUserParameters.vb))
+* [RestorePasswordParameters.cs](./CS/Security.Extensions/RestorePasswordParameters.cs) (VB: [RestorePasswordParameters.vb](./VB/Security.Extensions/RestorePasswordParameters.vb))
+<!-- default file list end -->
 # OBSOLETE - How to manage users (register a new user, restore a password, etc.) from the logon form in ASP.NET
 
 
